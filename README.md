@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/24092080/README.md)
 # 420CV - Fast Video Converter 🎬
 
 Ultra-fast CLI video converter with interactive shell and 16+ format support.
@@ -13,19 +12,31 @@ Ultra-fast CLI video converter with interactive shell and 16+ format support.
 
 ## Quick Start 🚀
 
+### Linux/macOS
 ```bash
-# Install
 git clone https://github.com/<username>/420cv.git
 cd 420cv
+chmod +x install.sh
+./install.sh
+420cv
+```
+
+### Windows
+```cmd
+git clone https://github.com/<username>/420cv.git
+cd 420cv
+powershell -ExecutionPolicy Bypass -File install.ps1
+420cv
+```
+
+### Manual Installation
+```bash
+# Linux/macOS
 chmod +x 420cv
 sudo cp 420cv /usr/local/bin/
 
-# Use
-420cv                    # Enter interactive shell
-420cv> video.avi mp4     # Convert single file
-420cv> batch *.mov webm  # Batch convert
-420cv> formats           # Show all formats
-420cv> exit              # Exit shell
+# Windows  
+# Just run 420cv.bat or python 420cv.py
 ```
 
 ## Usage Examples 💻
@@ -57,12 +68,23 @@ sudo cp 420cv /usr/local/bin/
 - **Python 3.6+**
 - **FFmpeg** (the conversion engine)
 
+### Install FFmpeg
+
+**Linux:**
 ```bash
-# Install FFmpeg
 sudo pacman -S ffmpeg      # Arch Linux
 sudo apt install ffmpeg   # Ubuntu/Debian
-brew install ffmpeg       # macOS
 ```
+
+**macOS:**
+```bash
+brew install ffmpeg
+```
+
+**Windows:**
+- Download from [ffmpeg.org](https://ffmpeg.org/download.html)
+- Extract to `C:\ffmpeg\`
+- Add to PATH or use chocolatey: `choco install ffmpeg`
 
 ## Why 420CV? 🤔
 

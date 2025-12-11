@@ -1,16 +1,25 @@
 # 420CV - Fast Video Converter
+# Cross-Platform Support: Linux, macOS, Windows
 # No Python dependencies required - uses only standard library
 
 # System Requirements:
 # - Python 3.6+
-# - FFmpeg (install via package manager)
+# - FFmpeg (install via package manager or download)
 
 # Installation:
+
+# Linux:
 # sudo pacman -S ffmpeg python    # Arch Linux
 # sudo apt install ffmpeg python3 # Ubuntu/Debian  
+
+# macOS:
 # brew install ffmpeg python      # macOS
 
+# Windows:
+# Download Python from python.org
+# Download FFmpeg from ffmpeg.org
+# Extract FFmpeg to C:\ffmpeg\ or add to PATH
+
 # Usage:
-# chmod +x 420cv
-# sudo cp 420cv /usr/local/bin/
-# 420cv
+# Linux/macOS: chmod +x 420cv && sudo cp 420cv /usr/local/bin/ && 420cv
+# Windows: python 420cv.py or run 420cv.bat
