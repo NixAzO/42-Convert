@@ -1,0 +1,6 @@
+# No external dependencies required
+# Built with Python standard library only
+# 
+# System requirements:
+# - Python 3.6+
+# - FFmpeg (system installation required)
