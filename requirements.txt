@@ -1,6 +1,16 @@
-# No external dependencies required
-# Built with Python standard library only
-# 
-# System requirements:
+# 420CV - Fast Video Converter
+# No Python dependencies required - uses only standard library
+
+# System Requirements:
 # - Python 3.6+
-# - FFmpeg (system installation required)
+# - FFmpeg (install via package manager)
+
+# Installation:
+# sudo pacman -S ffmpeg python    # Arch Linux
+# sudo apt install ffmpeg python3 # Ubuntu/Debian  
+# brew install ffmpeg python      # macOS
+
+# Usage:
+# chmod +x 420cv
+# sudo cp 420cv /usr/local/bin/
+# 420cv
